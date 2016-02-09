@@ -1,0 +1,133 @@
+body { 
+}
+
+.icon {
+    
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.myblog section {
+ 
+    text-align: center;
+  margin-top: 0; 
+}
+
+p {
+    
+ text-align: left;   
+}
+
+#header {
+        
+    background-color: black;
+    
+    width: 100%;
+    height: 60px;
+   left: 0;
+    padding: 0.25em 0.625em;
+    color: white;
+    font-style: normal;
+    font-feature-settings: normal;
+    position: fixed;
+    font-size: 14pt;
+    margin: 0 auto;
+ 
+    
+    
+}
+
+.i{
+    
+    color: teal;
+}
+
+#bgimage {height: 540px; 
+    width:1366px;  
+    margin: 60px auto;
+    background-position: center; 
+    background-size:1000px 100px; 
+    position: absolute;
+    color: white;
+}
+
+#centerContent{
+    top:300px;   
+    position: absolute;
+    color: skyblue;
+    margin-left: 600px;
+    font-size: 18pt;
+    font-family: cursive;
+    
+    
+}
+
+#content{
+        margin: 800px auto;
+    float: right;
+   
+    
+    color: teal;
+}
+
+
+
+@-webkit-keyframes rotateInDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+
+@keyframes rotateInDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateInDownRight {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+}
+
