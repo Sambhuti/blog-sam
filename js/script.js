@@ -29,13 +29,41 @@ $(document).ready(function() {
 });
 
 function setBindings() {
-    $("nav a").click(function(e) {
+    $("div a").click(function(e) {
+        e.preventDefault();
         var sectionId = e.currentTarget.id + "Section";
        
-        $('html,body').animate({
-            scrollTop: $("#" + sectionId).offset.top   
-            
-        }, 1000)
+        $("html body").animate({
+            scrollTop: $("#"+sectionId).offset().top}, 1000)
         
-    });
+    })
 }
+
+
+//Scroll Animation
+
+$(document).ready(function() { 
+
+
+	$(window).scroll(function(event) {
+
+		var y = $(this).scrollTop();
+
+		if (y >= 1000 && y<=2000) {
+
+			$('#phone').addClass('animate');
+			$('#tablet').addClass('animate');
+
+		}
+        
+       else
+           $('#phone').removeClass('animate')+$('#tablet').removeClass('animate');;
+			
+
+        
+ 
+
+	});
+
+
+});
