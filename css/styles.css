@@ -31,7 +31,7 @@ p {
         background-size: cover;
         color: white;
         background-attachment: fixed;
-        min-height: 700px;
+        min-height: 600px;
         margin-top: 0px;
         margin-bottom: 8px;
         text-emphasis-position: below;
@@ -56,7 +56,7 @@ p {
     background-attachment: scroll;
 }
 
-/*starat section loading overlay*/
+/*starat section loading overlay */ 
 
     .loading-overlay
 {
@@ -139,130 +139,6 @@ p {
     
 }
 
-/* Scrolling animation */
-
-#whyMeSection {
-	background:#1e2732;
-	height:759px;
-	text-align:center;
-	color:#fff;
-}
-
-#whyMeSection h1 {
-	font-family: 'Source Sans Pro';
-	font-weight:300;
-	font-size:3em;
-	padding-top:325px;
-}
-
-#scroll {
-	margin-top:200px;
-	margin-bottom: 200px;
-	text-align:center;
-}
-
-#scroll img {
-	position: relative;
-}
-
-#phone {
-	z-index:2;
-}
-
-
-.animate {
-	transition: all 2s ease;
-	-moz-transition: 2s ease-in-out;
-	-webkit-transition: all 2s ease-in-out;
-}
-
-#phone.animate {
-	transform: translate(5em,0);
-	-moz-transform: translate(5em,0);
-	-webkit-transform: translate(5em,0);
-}
-
-#tablet.animate {
-	transform: translate(-10em,0);
-	-moz-transform: translate(-10em,0);
-	-webkit-transform: translate(-10em,0);
-}
-
-
-
-
-}
-
-/* Ends scroll animation */
-
-
- /*animation */
-
-#ResumeSection {
-    
- 
-    
-         background-color:#1e2732;
-	width: 100%;
-	text-align:center;
-	color:#fff;
-}
-/* initial state */
-  #outerspace {
-         background-attachment: fixed;
-      margin-top:100px;
-      margin-bottom: 100px;
-	text-align:center;
-    position: relative;
-    height: 400px;
-    background-image: url(../images/outerspace.jpg);
-    color: #fff;
-  }
-  div.rocket {
-    position: absolute;
-    bottom: 10px;
-    left: 45%;
-    -webkit-transition: 3s ease-in;
-    -moz-transition: 3s ease-in;
-    -o-transition: 3s ease-in;
-    transition: 3s ease-in;
-       
-  }
-  div.rocket div {
-    width: 92px;
-    height: 215px;
-  background-image: url(../images/rocket.gif) ;
-    -webkit-transition: 2s ease-in-out;
-    -moz-transition: 2s ease-in-out;
-    -o-transition: 2s ease-in-out;
-    transition: 2s ease-in-out;
-         
-  }
-
-  /* hover final state */
-  #outerspace:hover div.rocket {
-   
-    -webkit-transform: translate(940px,-200px);
-    -moz-transform: translate(540px,-200px);
-    -o-transform: translate(540px,-200px);
-    -ms-transform: translate(540px,-200px);
-    transform: translate(0,-700px);
-      overflow: hidden;
-      
-         
-  }
-  #outerspace:hover div.rocket div {
-    -webkit-transform: rotate(70deg);
-    -moz-transform: rotate(70deg);
-    -o-transform: rotate(70deg);
-    -ms-transform: rotate(70deg);
-    transform: rotate(0deg);
-       
-  }
-
-
-
-/* end animations */
 .i{
     
     color: teal;
